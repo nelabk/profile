@@ -1,0 +1,19 @@
+body {
+    font-family: Inter;
+    border: 60px solid rosybrown;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-navbar {
+    padding: 40px 20px 0px 20px;
+    border-bottom: ridge;
+    border-width: 1px;
+    margin: 0 auto;
+    width: 90%;
+    border-color: black;
+}
+
+h3 {
+    font-family: "Kalnia Glaze", serif;
+}
