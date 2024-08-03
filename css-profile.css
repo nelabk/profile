@@ -5,13 +5,11 @@ body {
 
 .middle-section {
     width: 100%;
-    padding: 40px 0;
     background-color: #FFE5D9;
 }
 
 .bottom-section {
     width: 100%;
-    padding: 40px 0;
     background-color: #D8E2DC;
 }
 
@@ -52,7 +50,7 @@ h1 {
 }
 
 .larger-than-h1 {
-    font-size: 8rem;
+    font-size: 7rem;
     font-family: "La Belle Aurore", cursive;
     color: #9D8189;
 }
@@ -101,7 +99,6 @@ h1 {
 }
 
 .image-button {
-    display: inline-block;
     border: none;
     padding: 0;
     cursor: pointer;
