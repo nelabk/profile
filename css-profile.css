@@ -9,6 +9,12 @@ body {
     background-color: #FFE5D9;
 }
 
+.bottom-section {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #D8E2DC;
+}
+
 .custom-navbar {
     padding: 40px 20px 0px 20px;
     border-bottom: ridge;
@@ -21,6 +27,16 @@ body {
 
 h3 {
     font-family: "Kalnia Glaze", serif;
+}
+
+h2 {
+    font-size: 6rem;
+    font-family: "La Belle Aurore", cursive;
+    color: #9D8189;
+}
+
+h1 {
+    color: #9D8189;
 }
 
 .image {
@@ -41,12 +57,21 @@ h3 {
     color: #9D8189;
 }
 
-.highlight {
+.highlight-primary {
     background-image: url(images/—Pngtree—pink\ watercolor\ brushes_5054156.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: inline-block;
+}
+
+.highlight-secondary {
+    background-image: url(images/—Pngtree—brush\ heart\ shape\ vector_9269545.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    background-size: 300px;
 }
 
 @keyframes bounceIn {
@@ -72,5 +97,24 @@ h3 {
 
 .custom-font {
     font-family: "La Belle Aurore", cursive;
-    font-size: 30px;
+    font-size: 25px;
 }
+
+.image-button {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-button img {
+    display: block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-button:hover img {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+

@@ -16,7 +16,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm custom-navbar sticky-top">
+        <nav class="navbar navbar-expand-sm custom-navbar">
             <div class="container">
                 <h3>#JUNELAKODA</h3>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#profileNavbar">
@@ -24,10 +24,10 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="profileNavbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">About Me</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Interests</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutMe">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -36,7 +36,7 @@
 
     <main>
         
-        <section class="container">
+        <section class="container" id="home">
             <div class="row align-items-center">
                 <div class="col-lg-1">
                     <img src="images/—Pngtree—love pink little heart decoration_15003799.png" class="img-fluid large-img d-none d-sm-block" alt="a picture of hearts">
@@ -45,7 +45,7 @@
                     <img src="images/Subject.png" class="img-fluid image" alt="a picture of Junela Koda">
                 </div>
                 <div class="col text-center mt-3">
-                    <h1 class="larger-than-h1 highlight">Hello!</h1><br>
+                    <h1 class="larger-than-h1 highlight-primary">Hello!</h1><br>
                     I'm Junela. I'm an aspiring web developer with a passion for creating dynamic and engaging web experiences.
                     Feel free to browse through my profile and connect with me if you have any questions or opportunities.
                     Let's build something great together!
@@ -60,36 +60,62 @@
         </section>
 
         <section class="middle-section">
-            <div class="container">
+            <div class="container" id="aboutMe">
                 <div class="col mt-5">
-                    <h1>About Me</h1>
+                    <h1 class="text-center">About Me</h1>
                         <ul class="custom-font">
-                            <li class="p-2">I was born in the Philippines.</li>
-                            <li class="p-2">I live in Tokyo, Japan.</li>
-                            <li class="p-2">I'm scared of cats, but I'm trying to overcome that now.</li>
-                            <li class="p-2">My ideal dream job is working remotely, allowing me to spend more time with my family in my hometown.</li>
-                            <li class="p-2">One goal I'd like to accomplish in my lifetime is to be a philanthropist.</li>
+                            <li class="p-3">I was born in the Philippines.</li>
+                            <li class="p-3">I live in Tokyo, Japan.</li>
+                            <li class="p-3">I am currently enrolled in an online coding bootcamp, where I recently completed and received a certificate in Web Development Fundamentals.</li>
+                            <li class="p-3">I am now pursuing the Front-End Web and Mobile Development course, which I expect to complete by December 2024.</li>
+                            <li class="p-3">My interests include traveling, watching films, studying Japanese, and creating and editing videos.<br>
+                            This is my most recent YouTube video. <em>Click the image below to watch the video.</em><br>
+                            <br><a href="https://www.youtube.com/watch?v=ynz07r7xQvc" target="_blank" class="image-button"><img src="images/Youtubevideo.png" alt="recent YouTube video" width="300"/></a></li>
+                            <li class="p-3">My ideal dream job is working remotely, allowing me to spend more time with my family in my hometown.</li>
+                            <li class="p-3">One goal I'd like to accomplish in my lifetime is to be a philanthropist.</li>
                         </ul>
                 </div>
             </div>
         </section>
 
-        
-
-
-        <section class="row row-content">
-            <h2>Interests</h2>
-            <ul>
-                <li>Watching movies</li>
-                <li>Studying Japanese</li>
-                <li>Traveling</li>
-                <li>Editing videos. (Here is <a href="https://www.youtube.com/@nelabk" target="_blank"><strong>a link </strong> </a>to my Youtube account.) </li>
-                My most recent YouTube video. <em>Click the image below to watch the video.</em>
-                <br><a href="https://www.youtube.com/watch?v=ynz07r7xQvc" target="_blank" ><img src="images/Youtubevideo.png" alt="recent YouTube video" width="300"/></a>
-            </ul>
+        <section class="bottom-section">
+            <div class="container" id="portfolio">
+                <div class="row">
+                    <h1 class="text-center">Portfolio</h1>
+                    <div class="col-md-6 text-center mt-5">
+                        <figure class="figure">
+                            <a href="https://nela-nucampsite-2024-9c0e9.web.app/" target="_blank" class="image-button"><img src="images/Screenshot 2024-08-03 at 20.20.03.jpg" alt="image button to a website" width="400"/></a>
+                            <figcaption class="figure-caption text-center">NUCAMPSITE</figcaption>
+                            <figcaption class="figure-caption text-center">Online Bootcamp's Project using Bootstrap</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-6 text-center mt-5">
+                        <figure class="figure">
+                            <a href="https://nela-coffeeshop-2024.web.app" target="_blank" class="image-button"><img src="images/website.jpg" alt="image button to a website" width="400"/></a>
+                            <figcaption class="figure-caption text-center">COFFEESHOP</figcaption>
+                            <figcaption class="figure-caption text-center">Online Bootcamp's Workshop Assignment on Website Deployment with Firebase</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
+
+    <footer>
+        <section class="container" id="contact">
+            <div class="row">
+                <div class="col-md-6 pt-5 pb-5 highlight-secondary">
+                    <h2>Grow with me.</h2>
+                    <h5>Let's build something great together.</h5>
+                </div>
+                <div class="col text-center pt-5 pb-5">
+                    <i class="fa-solid fa-square-phone fa-2xl p-5" style="color: #F4ACB7;"></i> Tel: +81-70-4509-9750<br>
+                    <i class="fa-solid fa-square-envelope fa-2xl p-3" style="color: #D8E2DC;"></i> Email: junelakoda@gmail.com
+                </div>
+            </div>
+        </section>
+    </footer>
 
     
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
